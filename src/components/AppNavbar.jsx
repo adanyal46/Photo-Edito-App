@@ -20,7 +20,7 @@ export function AppNavbar({ imageUrl, setImageUrl }) {
 
 				<div className="relative flex w-full gap-2 md:w-max">
 					<Input
-						value={imageUrl}
+						// value={imageUrl}
 						onChange={e => setImageUrl(e.target.value)}
 						type="search"
 						color="white"
