@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{background-color: #564D4A;}
+.image{
+  width: 100%;
+ 
+  object-fit: cover;
+}
+
+@media (min-width:720px) {
+
+}
+
+.ant-tooltip-open{
+  z-index: 9999 !important;
+}
